@@ -17,11 +17,11 @@ function App() {
   useEffect(() => {
     // Load face detection models when the component mounts
     const loadModels = async () => {
-      await faceapi.nets.tinyFaceDetector.loadFromUri('/models');
-      await faceapi.nets.faceLandmark68Net.loadFromUri('/models');
-      await faceapi.nets.faceRecognitionNet.loadFromUri('/models');
-      await faceapi.nets.ageGenderNet.loadFromUri('/models'); // Ensure this model is loaded
-      await faceapi.nets.faceExpressionNet.loadFromUri('/models');
+      await faceapi.nets.tinyFaceDetector.loadFromUri('/webcam-face/models');
+      await faceapi.nets.faceLandmark68Net.loadFromUri('/webcam-face/models');
+      await faceapi.nets.faceRecognitionNet.loadFromUri('/webcam-face/models');
+      await faceapi.nets.ageGenderNet.loadFromUri('/webcam-face/models'); // Ensure this model is loaded
+      await faceapi.nets.faceExpressionNet.loadFromUri('/webcam-face/models');
     };
     
     loadModels();
