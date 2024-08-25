@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/webcam-face/static/css/main.0dcf919d.css",
+    "main.js": "/webcam-face/static/js/main.9e9f031a.js",
+    "index.html": "/webcam-face/index.html",
+    "main.0dcf919d.css.map": "/webcam-face/static/css/main.0dcf919d.css.map",
+    "main.9e9f031a.js.map": "/webcam-face/static/js/main.9e9f031a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dcf919d.css",
+    "static/js/main.9e9f031a.js"
+  ]
+}
