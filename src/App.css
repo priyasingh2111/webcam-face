@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  background-color: #ADD8E6;
+  min-height: 100vh;
+}
+
+header {
+  margin-bottom: 20px;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between the two boxes */
+}
+
+.webcam-box,
+.image-box {
+  border: 2px solid #ccc;
+  padding: 20px;
+  width: 550px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+button {
+  margin: 0 10px;
+}
+
+.captured-image img {
+  max-width: 70%;
+  height: auto;
+}
